@@ -72,11 +72,13 @@ section#entertainment{
     font-size: 30px;
 }
 #speakers h1{
-    	font-size: 50px;
+	font-size: 50px;
     	border-bottom: #000 solid 1px;
 
     }
-
+#org h1{
+	font-size: 2rem;
+}
 .countdown{
     font-size:50px;
     display: flex;
@@ -132,10 +134,10 @@ section#entertainment{
 #showcase h2{
 	font-size: 1.8rem;
 }
-#showcase h2 hr{
- 
+.orgs{
+	margin-right: 2em;
 }
-.speakup li{
+.orgs li, .speakup li{
 	
 	list-style: none;
 	 color: #444;
@@ -186,7 +188,7 @@ section#entertainment{
 	bottom: -6vh;
 	
 }
-.logos{
+.logos, .logos1{
 	display: grid;
 	grid-gap: 2rem;
 	grid-template-columns: repeat(3, 1fr);
@@ -195,10 +197,12 @@ section#entertainment{
 	align-items: center;
 
 }
+
 .logos img{
 	
     width: 40%;
 }
+
 .logos div:last-child img{
 	width: 35%;
 }
@@ -245,6 +249,14 @@ td{
 #schedule h1{
 	margin-top: 2rem;
 }
+.logos1 img{
+	width: 50%;
+	margin-top: 3rem;
+}
+#org .email{
+	color: #444;
+	font-size: 0.8rem;
+}
 footer .footer-cols{
 	display: grid;
 	grid-gap: 20px;
@@ -262,6 +274,7 @@ footer .footer-cols ul li:first-child{
 	padding-bottom: 0.5rem;
 	border-bottom: #444 solid 1px;
 	margin-bottom: 1rem;
+	color: #ccc;
 }
 .footer-bottom{
 	background: #000;
@@ -355,7 +368,7 @@ header{
     position: relative;
     z-index: 2;
 }
-.speech, .organisers{
+.speech, .organisers, #org h1{
 	margin-top: 5rem;
 }
 .organisers{
