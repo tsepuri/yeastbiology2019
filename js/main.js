@@ -78,13 +78,13 @@ ScrollReveal().reveal('.speak', {
     distance: '100px',
     origin: 'left'
  });
-ScrollReveal().reveal('.speech', { 
+ScrollReveal().reveal('.speech',  { 
     duration: 3000,
     
     distance: '10px',
     origin: 'bottom'
  });
-ScrollReveal().reveal('.speakup', { 
+ScrollReveal().reveal('.speakup, .logos1, .orgs', { 
     duration: 3000,
     
     distance: '10px',
